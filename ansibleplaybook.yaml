@@ -2,3 +2,7 @@
 -hosts: Dev
  user: ansible
  become: yes
+
+ tasks:
+ - name: install git
+   yum: name=git state=present
