@@ -1,0 +1,4 @@
+---
+-hosts: Dev
+ user: ansible
+ become: yes
