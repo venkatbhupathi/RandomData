@@ -6,3 +6,6 @@
  tasks:
  - name: install git
    yum: name=git state=present
+
+  - name: install httpd
+   yum: name=httpd state=present
